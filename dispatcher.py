@@ -10,7 +10,7 @@ class Dispatcher:
             getattr(self, cmd, self.defaultfn)()
 
     def defaultfn(self):
-        print("Unknown command")
+        print("Unknown command！紧急修复完毕！")
 
 
 if __name__ == '__main__':
